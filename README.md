@@ -99,7 +99,8 @@ flutter run \
  --dart-define=OPENAI_API_KEY=
 
 
-No uses comillas ni espacios extra; no pongas / al final de la URL.
+Nota:
+(No use comillas ni espacios extra; no ponga / al final de la URL.)
 
 Alternativa con dotenv:
 
@@ -117,7 +118,7 @@ flutter pub get
 flutter run
 
 
-Si usas Supa.init() en main(), asegúrate de llamar a:
+Si usted usa Supa.init() en main(), asegúrate de llamar a:
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -155,7 +156,7 @@ Permisos Android (obligatorio): en android/app/src/main/AndroidManifest.xml
 <uses-permission android:name="android.permission.INTERNET" />
 
 
-(Ya incluido en tu repo; solo verifica que esté en el manifest de main/.)
+(Esto ya esta incluido en tu repo; solo verifica que esté en el manifest de main/.)
 
 📱 Instalación en el teléfono
 
