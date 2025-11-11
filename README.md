@@ -4,9 +4,9 @@ Aplicación móvil (Flutter) para gestionar trabajos de grado y facilitar el flu
 
 ✨ Funcionalidades
 
-Autenticación con Supabase: registro, login, recuperación de contraseña.
+Autenticación con Supabase: registro, login.
 
-Perfil básico de usuario (rol/Nombre/Email).
+Perfil básico de usuario (Nombre/Email).
 
 Gestión de entregas (entregables/bitácoras), con estados e historial.
 
@@ -187,6 +187,7 @@ Cerrar sesión
 Supa.client.auth.signOut() y limpieza de caché local.
 
 📂 Organización del código (ejemplo)
+
 lib/
  ├── config/
  │    └── env.dart
